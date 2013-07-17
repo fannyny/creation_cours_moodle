@@ -1,0 +1,73 @@
+body {
+  background: #F2EDE7;
+}
+
+h1 {
+  font-size: 28px;
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.4);
+  color: #4195CD;
+  font-variant: small-caps;
+  font-weight: bold;
+  padding-left: 10px;
+  text-shadow: 3px 3px 3px #95CEF4;
+}
+
+#header {
+  background-color: #F2EDE7;
+  border: 1px solid #CCCCCC;
+  height: 20px;
+  left: 0;
+  width: 100%;
+}
+
+#toolbar {
+  background: -moz-linear-gradient(center top , #FEFFFF 0%, #F5F5F5 100%) repeat scroll 0 0 transparent;
+  border-bottom: 1px solid #E9E8E8;
+  border-top: 1px solid #E9E8E8;
+  color: #707070;
+  font-size: 11px;
+  font-style: italic;
+  padding-top: 2px;
+  z-index: 100;
+}
+
+#toolbar p {
+  margin-bottom: 0;
+  margin-right: 10px;
+  text-align: right;
+}
+
+#blocPrincipal {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 1px 10px #8A7E6B;
+  margin-top: 100px;
+}
+
+#blocHeader {
+  background: none repeat scroll 0 0 #FCFAF7;
+  margin-bottom: 40px;
+}
+
+form {
+  padding-left: 20px;
+}
+
+#creer {
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+#supprimer {
+  margin-right: 10px;
+}
+
+#loading {
+  display: none;
+}
+
+.right {
+  float: right;
+}
